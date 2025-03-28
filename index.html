@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang=es>
+<head>
+    <meta charset="UTF-8" />
+    <title>title</title>
+</head>
+<link rel="stylesheet" href="./css/estilos.css">
+<body>
+    <h1>BUHOPAGE</h1>
+   <P>Clica sobre la foto para ver más <a target="_blank" href=https://www.istockphoto.com/es/search/2/image-film?excludenudity=false&phrase=buhos rel="noopener">fotos de buhos</a>.</P> 
+   <p><a target="_blank" href="https://www.istockphoto.com/es/search/2/image-film?excludenudity=false&phrase=buhos" rel="noopener">
+    <img src="./img/buho.jpg" alt="buho" width="250px"></a></p>
+    <table>
+        <tr>
+            <th colspan="3"> Síes y Noes de los buhos</th>
+        </tr>
+        <tr>
+            <th colspan="3"> Cosas que los buhos aman y odian</th> 
+        </tr>
+        <tr>
+            <td>
+            <ul>
+                <li><p>Los bosques</p></li>
+                <li><p>Zonas oscuras</p></li>
+                <li><p>Cazar animales pequeños</p></li>
+            </ul>
+            </td>
+            <td><img src="./img/gif-buho-1.gif" width="100px"alt="Buho">
+            <figcaption>Los buhos aman la soledad</figcaption></td>
+            <td>-----------------------------------</td>
+        </tr>
+        <tr>
+            <td>
+                <ol>
+                    <li><p>La luz</p></li>
+                    <li><p>Los ultrasonidos</p></li>
+                    <li><p>Estar con otros buhos</p></li>
+                </ol>
+            </td>
+            <td>
+                <img src="./img/gif-buho-2.gif" width="100px"alt="Buho">
+                <figcaption>Los buhos odian la luz</figcaption>
+            </td>
+            <td></td>
+        </tr>
+    </table>
+    <br>
+    <br>
+    <h1><strong>Encuesta sobre los buhos</strong></h1>
+    <fieldset><!-- Este es el borde que rodea las preguntas -->
+        <legend>¿Los buhos son de cazar o de comer frutas?</legend>
+            <label><input id="de cazar" type="radio" name="lugar" value="1 checked">De cazar</label>
+            <label><input id="de comer frutas" type="radio" name="lugar" value="2 checked">De comer frutas</label>
+        </fieldset>
+        <fieldset><!-- Este es el borde que rodea las preguntas -->
+            <legend>¿Qué rasgos de carácter presenta un buho?</legend>
+            <p>
+                <label for="opciones">Selecciona la opción: </label>
+                <input title="fiestero" name="opciones" value="1" id="opcion1" type="radio"> Fiestero
+                <input title="solitario" name="opciones" value="2" id="opcion2" type="radio"> Solitario
+                <input title="alegre" name="opciones" value="3" id="opcion3" type="radio" checked> Alegre
+             </p>
+            </fieldset>
+            <fieldset>
+                <p>
+                    <label label for="archivo"><strong>Sube la foto de un buho</strong>: </label>
+                    <input id="archivo" type="file">
+                 </p>
+            </fieldset>
+            <p>
+                <label for="boton1"></label>
+                <input id="boton1" type="button" value="Enviar" onclick="alert('Hola gente!')">
+             </p>
+</body>
+</html>
